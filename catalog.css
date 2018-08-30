@@ -1,0 +1,344 @@
+@font-face {
+    font-family: UniSans;
+    src: url("fonts_src/UniSansSemiBold.ttf");
+    font-weight: 700;
+}
+body {
+    background: #f2f3f4;
+	font-family:UniSans;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: relative;
+}
+div, span {
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+nav {
+	display: block;
+}
+ul {
+	padding-top: 0;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+a {
+    outline: 0 none;
+    text-decoration: none;
+}
+p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset, blockquote {
+    margin-bottom: 16px;
+}
+h1 {
+    font-family: 'UniSans';
+    font-size: 36px;
+    font-weight: 550;
+    color: rgba(31, 42, 68, .9);
+    line-height: 40px;
+}
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1F2A44;
+    line-height: 24px;
+}
+
+
+
+.maincontent {
+	font-family: 'UniSans';
+}
+.category-name {
+	margin: 30px 0 25px 0;
+}
+.back {
+	margin: 0px 0 0px 0px;
+	color: rgba(31, 42, 68, .9);
+}
+
+
+a, .nmp-link {
+    font-family: 'UniSans';
+    font-size: 16px;
+    font-weight: 400;
+    color: #3A64C8;
+    line-height: 24px;
+}
+.catalog-link{
+	color: #1F2A44;
+}
+
+header.globalheader {
+    background: #fff;
+    position: relative;
+}
+#globalnav {
+	height: 56px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    box-shadow: inset 0 -1px 0 0 rgba(31, 42, 68, 0.16);
+    z-index: 1000;
+}
+#back_to_cat {
+    height: 50px;
+    position: fixed;
+    right: 80px;
+    width: 195px;
+    top: 800px;
+    background: #DA1B1B;
+    border-radius: 4px;
+}
+#back_to_cat h2 {
+    color: white;
+    margin: 12px;
+    text-align: center;
+    font-size: 22px;
+    width: 10;
+}
+.container {
+	width: 1218px;
+    margin: 0 auto;
+    padding: 0 ;
+}
+header h2 {
+    float: left;
+    margin: 15px 0 0;
+}
+header a {
+    text-decoration: none;
+}
+header .pages {
+    height: 100%;
+    margin: 0;
+    padding-left: 25px;
+    float: left;
+}
+header .pages li.selected {
+    border-bottom: 2px solid #f4364c;
+}
+header .pages li {
+    height: 56px;
+    display: inline-block;
+    box-sizing: border-box;
+    list-style: none;
+}
+header .pages a {
+    display: block;
+    height: 100%;
+    padding: 0 10px;
+    line-height: 56px;
+    color: #1F2A44;
+}
+.tab-level1-selected {
+    font-family: 'UniSans';
+    font-size: 14px;
+    font-weight: 600;
+    color: #1F2A44;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+
+
+
+.clear-both {
+    clear: both;
+}
+main.maincontent {
+    display: block;
+    padding: 60px 0 428px 0;
+}
+.content {
+    background: transparent;
+}
+.nmp-shop-home_header {
+    margin: 20px 0 40px;
+}
+.nmp-shop-home_header_main {
+    margin: 35px 0 40px;
+    text-align: center;
+}
+
+.nmp-shop_banners-list {
+    width: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.nmp-shop_cat-banner {
+    height: 170px;
+    margin: 0 16px 16px 0;
+    float: left;
+    position: relative;
+    border-radius: 4px;
+    line-height: 170px;
+    color: #fff;
+    text-align: center;
+    list-style: none;
+    overflow: hidden;
+}
+
+.nmp-shop_cat-banner.__10  {
+    height: 170px;
+    margin-top: 20px;
+    margin-bottom: 32px;
+    box-shadow: 0 1px 2px 0 rgba(31, 42, 68, 0.16);
+}
+
+
+.nmp-shop_cat-banner a {
+    display: block;
+    height: 100%;
+}
+.nmp-shop_cat-banner.__1 h2 {
+    padding-left: 30px;
+}
+.nmp-shop_cat-banner.__05 {
+    width: 592px;
+}
+.nmp-shop_cat-banner.__075 {
+    width: 896px;
+}
+.nmp-shop_cat-banner.__025 {
+    width: 288px;
+}
+.nmp-shop_cat-banner a h2 {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    line-height: 166px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+
+
+.product-list {
+    padding-top: 0px;
+    text-align: center;
+}
+.product-item {
+    width: 288px;
+    height: 357px;
+    display: block;
+    float: left;
+    position: relative;
+    padding: 16px;
+    margin: 0 16px 16px 0;
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow: 0 1px 2px 0 rgba(31, 42, 68, 0.16);
+    border-radius: 4px;
+    text-align: left;
+}
+.product-item:hover {
+	box-shadow: 0 0 15px rgba(30, 39, 63, 0.2);
+}
+.hints {
+    font-family: 'UniSans';
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(31, 42, 68, .32);
+    line-height: 18px;
+}
+p.secondary {
+    font-family: 'UniSans';
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(31, 42, 68, .64);
+    line-height: 20px;
+    margin-top: 1px;
+    margin-bottom: 4px;
+}
+.image-wrap img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    position: absolute;
+    top: 163px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.product-name {
+	margin: 4px 0 4px 0;
+}
+
+
+.nmp-features-info-graph {
+    margin-left: -6px;
+    width: 100%;
+}
+.nmp-features-info-graph_item.__washing {
+    background-image: url(images/washing-machine.svg);
+}
+.nmp-features-info-graph_item.__gas {
+    background-image: url(images/gas.svg);
+}
+.nmp-features-info-graph_item.__electro {
+    background-image: url(images/electro.svg);
+}
+.nmp-features-info-graph_item.__glass-ceramic {
+    background-image: url(images/glass-keramic.svg);
+}
+.nmp-features-info-graph_item.__heat {
+    background-image: url(images/heat.svg);
+}
+.nmp-features-info-graph_item.__handle {
+    background-image: url(images/removable-handle.svg);
+}
+.nmp-features-info-graph_item.__induction {
+    background-image: url(images/induction.svg);
+}
+.nmp-features-info-graph_item {
+    width: 32px;
+    height: 32px;
+    float: left;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.nmp-item-cat_photo-count {
+    padding-left: 32px;
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+}
+
+#hide {
+    display: none;
+}
+
+.nmp-item-normal_photo-count {
+    padding-left: 32px;
+    position: absolute;
+    top: 123px;
+    right: 18px;
+    background: url(default-skin/photos.svg) 8px center no-repeat;
+}
+.nmp-item-normal_photo-count2 {
+    padding-left: 32px;
+    position: absolute;
+    top: 147px;
+    right: 18px;
+    background: url(default-skin/photos.svg) 8px center no-repeat;
+}
+
+
