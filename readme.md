@@ -8,3 +8,6 @@ serch zoom,
 browser.zoom.siteSpecific, 
 zoom.maxPercent, 
 zoom.minPercent
+
+no touch swipe !!! 
+пропадаеют элементы управления
