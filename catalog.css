@@ -154,7 +154,7 @@ header .pages a {
 }
 main.maincontent {
     display: block;
-    padding: 60px 0 428px 0;
+    padding: 55px 0 428px 0;
 }
 .content {
     background: transparent;
@@ -322,6 +322,7 @@ p.secondary {
     left: 16px;
 }
 
+
 #hide {
     display: none;
 }
@@ -340,5 +341,3 @@ p.secondary {
     right: 18px;
     background: url(default-skin/photos.svg) 8px center no-repeat;
 }
-
-
