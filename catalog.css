@@ -139,7 +139,7 @@ header .pages a {
 }
 .tab-level1-selected {
     font-family: 'UniSans';
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 600;
     color: #1F2A44;
     line-height: 24px;
@@ -154,7 +154,7 @@ header .pages a {
 }
 main.maincontent {
     display: block;
-    padding: 55px 0 428px 0;
+    padding: 55px 0 20px 0;
 }
 .content {
     background: transparent;
