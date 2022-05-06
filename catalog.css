@@ -64,7 +64,7 @@ h2 {
 
 a, .nmp-link {
     font-family: 'UniSans';
-    font-size: 16px;
+    font-size: 70px;
     font-weight: 400;
     color: #3A64C8;
     line-height: 24px;
@@ -78,7 +78,7 @@ header.globalheader {
     position: relative;
 }
 #globalnav {
-	height: 56px;
+	height: 70px;
     position: fixed;
     top: 0;
     left: 0;
@@ -91,18 +91,24 @@ header.globalheader {
     height: 50px;
     position: fixed;
     right: 80px;
-    width: 195px;
+    width: 210px;
     top: 800px;
     background: #DA1B1B;
     border-radius: 4px;
 }
 #back_to_cat h2 {
     color: white;
-    margin: 12px;
-    text-align: center;
+    margin: 13px 0 0 16px;
     font-size: 22px;
-    width: 10;
+    width: 180px;
+    text-align: center;
 }
+.nav_container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 ;
+}
+
 .container {
 	width: 1218px;
     margin: 0 auto;
@@ -110,7 +116,7 @@ header.globalheader {
 }
 header h2 {
     float: left;
-    margin: 15px 0 0;
+    margin: 15px 0 0 17px;
 }
 header a {
     text-decoration: none;
@@ -118,7 +124,8 @@ header a {
 header .pages {
     height: 100%;
     margin: 0;
-    padding-left: 25px;
+    padding-left: 8px;
+    padding-top: 7px;
     float: left;
 }
 header .pages li.selected {
@@ -154,7 +161,7 @@ header .pages a {
 }
 main.maincontent {
     display: block;
-    padding: 55px 0 20px 0;
+    padding: 70px 0 20px 0;
 }
 .content {
     background: transparent;
