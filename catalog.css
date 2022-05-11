@@ -56,6 +56,16 @@ h2 {
 .category-name {
 	margin: 30px 0 25px 0;
 }
+
+.sub-category-name {
+    margin: 30px 0 25px 20px;
+}
+
+h2.sub-category-name {
+    color: rgba(31, 42, 68, .64);
+    font-size: 25px;
+}
+
 .back {
 	margin: 0px 0 0px 0px;
 	color: rgba(31, 42, 68, .9);
@@ -167,7 +177,7 @@ main.maincontent {
     background: transparent;
 }
 .nmp-shop-home_header {
-    margin: 20px 0 40px;
+    margin: 20px 0 30px;
 }
 .nmp-shop-home_header_main {
     margin: 35px 0 40px;
@@ -236,6 +246,7 @@ main.maincontent {
 .product-list {
     padding-top: 0px;
     text-align: center;
+    overflow: hidden;
 }
 .product-item {
     width: 288px;
