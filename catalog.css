@@ -126,7 +126,7 @@ header.globalheader {
 }
 header h2 {
     float: left;
-    margin: 15px 0 0 17px;
+    margin: 20px 0 0 17px;
 }
 header a {
     text-decoration: none;
@@ -156,7 +156,7 @@ header .pages a {
 }
 .tab-level1-selected {
     font-family: 'UniSans';
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     color: #1F2A44;
     line-height: 24px;
