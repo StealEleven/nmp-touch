@@ -134,8 +134,8 @@ header a {
 header .pages {
     height: 100%;
     margin: 0;
-    padding-left: 8px;
-    padding-top: 7px;
+    padding-left: 30px;
+    padding-top: 10px;
     float: left;
 }
 header .pages li.selected {
@@ -150,13 +150,13 @@ header .pages li {
 header .pages a {
     display: block;
     height: 100%;
-    padding: 0 12px;
+    padding: 0 25px;
     line-height: 56px;
     color: #1F2A44;
 }
 .tab-level1-selected {
     font-family: 'UniSans';
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 600;
     color: #1F2A44;
     line-height: 24px;
