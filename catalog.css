@@ -100,9 +100,9 @@ header.globalheader {
 #back_to_cat {
     height: 50px;
     position: fixed;
-    right: 80px;
+    left: 1600px;
     width: 210px;
-    top: 800px;
+    top: 400px;
     background: #DA1B1B;
     border-radius: 4px;
 }
@@ -134,7 +134,7 @@ header a {
 header .pages {
     height: 100%;
     margin: 0;
-    padding-left: 60px;
+    padding-left:20 px;
     padding-top: 10px;
     float: left;
 }
@@ -150,13 +150,13 @@ header .pages li {
 header .pages a {
     display: block;
     height: 100%;
-    padding: 0 25px;
+    padding: 0 15px;
     line-height: 56px;
     color: #1F2A44;
 }
 .tab-level1-selected {
     font-family: 'UniSans';
-    font-size: 22px;
+    font-size: 14px;
     font-weight: 600;
     color: #1F2A44;
     line-height: 24px;
